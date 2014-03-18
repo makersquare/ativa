@@ -18,6 +18,8 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'sass-rails', '~> 4.0.0'
 gem 'zurb-foundation', '~>4.0.0'
 gem 'compass-rails'
+gem 'devise'
+gem 'figaro'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
