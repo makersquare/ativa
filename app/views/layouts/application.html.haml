@@ -30,13 +30,13 @@
               = link_to "Sign up", new_user_registration_path
             %li
               = link_to "Sign in", new_user_session_path
-    - if notice || alert
-      .row
-        .large-12.columns
-          %p.notice= notice
-          %p.alert= alert
+
     .row
       .large-12.columns
+        - if flash.present?
+          - flash.each do |name, msg|
+            = content_tag :div, msg, class: name
+
         = yield
 
         = javascript_include_tag "application"
