@@ -23,6 +23,7 @@ gem 'zurb-foundation', '~>4.0.0'
 gem 'compass-rails'
 gem 'devise'
 gem 'figaro'
+gem 'fog'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
