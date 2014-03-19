@@ -1,5 +1,6 @@
 Ativa::Application.routes.draw do
   devise_for :users
+  root 'projects#index'
 
   resources :projects do
     resources :posts, except: :index
@@ -7,6 +8,4 @@ Ativa::Application.routes.draw do
   end
 
   get 'users/:id' => 'users#show', as: 'user'
-
-  root 'projects#index'
 end

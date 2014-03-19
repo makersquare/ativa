@@ -1,16 +1,13 @@
 source 'https://rubygems.org'
 
 gem 'carrierwave'
-gem 'devise'
-gem 'rmagick'
-gem 'figaro'
+gem 'mini_magick'
 
 # Use HAML
 gem 'haml-rails'
-gem 'haml'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.0'
+gem 'rails', '4.0.3'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
@@ -24,6 +21,8 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'sass-rails', '~> 4.0.0'
 gem 'zurb-foundation', '~>4.0.0'
 gem 'compass-rails'
+gem 'devise'
+gem 'figaro'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
