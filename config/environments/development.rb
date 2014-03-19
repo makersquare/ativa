@@ -37,5 +37,6 @@ Ativa::Application.configure do
   config.action_mailer.raise_delivery_errors = true
   # Send email in development mode?
   config.action_mailer.perform_deliveries = true
+  I18n.config.enforce_available_locales = true
 end
 
